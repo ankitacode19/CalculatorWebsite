@@ -8,3 +8,7 @@ function equal() {
     document.form.textview.value = eval(exp);
   }
 }
+
+function c() {
+  document.form.textview.value = "";
+}
