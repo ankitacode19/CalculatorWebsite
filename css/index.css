@@ -17,3 +17,9 @@
   font-size: 25px;
   padding: 8px;
 }
+
+.main {
+  position: absolute;
+  top: 250px;
+  left: 600px;
+}
