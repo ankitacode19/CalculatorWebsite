@@ -31,3 +31,10 @@ h1 {
   left: 645px;
   background: rgb(41, 226, 41);
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+}
