@@ -3,9 +3,9 @@ function insert(num) {
 }
 
 function equal() {
-  var exp = document.form.textview.value;
-  if (exp) {
-    document.form.textview.value = eval(exp);
+  var ere = document.form.textview.value;
+  if (ere) {
+    document.form.textview.value = eval(ere);
   }
 }
 
@@ -14,6 +14,6 @@ function c() {
 }
 
 function back() {
-  var exp = document.form.textview.value;
-  document.form.textview.value = exp.substring(0, exp.length - 1);
+  var ere = document.form.textview.value;
+  document.form.textview.value = ere.substring(0, ere.length - 1);
 }

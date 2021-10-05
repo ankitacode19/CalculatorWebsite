@@ -21,6 +21,7 @@ h1 {
 .textview {
   width: 190px;
   margin: 5px;
+  margin:6px;
   font-size: 25px;
   padding: 8px;
 }
