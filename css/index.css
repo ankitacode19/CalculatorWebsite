@@ -6,6 +6,7 @@
 body {
   background-color: rgb(187, 247, 187);
 }
+
 h1 {
   padding: 15px;
 }
@@ -16,6 +17,7 @@ h1 {
   font-size: 25px;
   margin: 1px;
   cursor: pointer;
+  background-color: #F59E0B;
 }
 
 .textview {
@@ -23,13 +25,23 @@ h1 {
   margin: 5px;
   font-size: 25px;
   padding: 8px;
+  border: 1px solid white;
+  outline: none;
+  padding: 10px;
+  color: white;
+  background-color: black;
 }
 
 .main {
   position: absolute;
   top: 250px;
   left: 645px;
-  background: rgb(41, 226, 41);
+  border-radius: 10px;
+  margin-left: 10vw;
+  align-items: center;
+  align-content: center;
+  background-color: black;
+  padding: 10px;
 }
 
 .container {
