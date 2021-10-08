@@ -4,10 +4,13 @@
 }
 
 body {
-  background-color: rgb(187, 247, 187);
+  background-image: url(../img/cal.jpg) ;
+  background-size: cover;
 }
 h1 {
+  background-color: rgba(255,255,255,0.5);
   padding: 15px;
+  text-align: center;
 }
 
 .button {
@@ -16,25 +19,46 @@ h1 {
   font-size: 25px;
   margin: 1px;
   cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 4px -3px 5px #3c65df,
+              3px 2px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 10%; 
+}
+
+.button:hover{
+  background-color: #cdcfd8;
+  transition: 0.5s;
 }
 
 .textview {
+  height: 34px;
   width: 190px;
   margin: 5px;
   font-size: 25px;
   padding: 8px;
+  box-shadow: inset 1px 1px 5px #000;
+  background-color: white;
 }
 
 .main {
-  position: absolute;
-  top: 250px;
-  left: 645px;
-  background: rgb(41, 226, 41);
+  background: rgb(122, 142, 202);
+  box-shadow: inset 0px 0em 4em rgb(40, 58, 205),
+                    0px -1px 15px 2px rgba(0, 0, 0, 0.85), 
+                    0.3em 0.3em 1em rgba(0, 0, 0);
+  margin: auto;
+  max-width: 220px;
+  max-height: 384px;
+  border-radius: 10px;
+  margin-top: 5%;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15%;
+  padding: 6%;
 }
+form{
+  padding-top: 4px;
+}
+
