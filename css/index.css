@@ -3,11 +3,23 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: rgb(187, 247, 187);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5%;
+  height: 100%;
 }
 h1 {
   padding: 15px;
+  font-weight: bolder;
+  border-radius: 10px;
 }
 
 .button {
@@ -16,6 +28,9 @@ h1 {
   font-size: 25px;
   margin: 1px;
   cursor: pointer;
+  background-color: #111;
+  color: #fff;
+  font-weight: bolder;
 }
 
 .textview {
@@ -24,18 +39,22 @@ h1 {
   margin:6px;
   font-size: 25px;
   padding: 8px;
+  background-color: #fff;
+  color: #000;
 }
 
 .main {
-  position: absolute;
-  top: 250px;
-  left: 645px;
-  background: rgb(41, 226, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  background: #555;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15%;
+  padding: 16px 8px 8px 8px;
 }
